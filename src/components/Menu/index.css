@@ -1,0 +1,334 @@
+/* 
+  --yellow-color: #F4BC16;
+  --black-color: #000000;
+  --gray-color: #444444;
+  --gray-light-color: #999999;
+  --background-boxes: #F5F5F5;
+*/
+
+
+/*
+.menu-container {
+    background-color: white;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.menu-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu-container ul li {
+    text-align: right;
+    background-color: var(--background-boxes);
+    border-bottom: 1px solid white;
+}
+
+.menu-container ul a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.menu-container ul a:hover {
+    background-color: var(--yellow-color);
+}
+
+.menu-container .logo {
+    float: right;
+    display: block;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--yellow-color);
+
+}
+
+.menu-container .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.menu-container .menu-label-check {
+    padding: 28px 20px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.menu-container .menu-label-check .hamburger-icon {
+    background: var(--gray-color);
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.menu-container .menu-label-check .hamburger-icon::before {
+    background: var(--gray-color);
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+
+.menu-container .menu-label-check .hamburger-icon::after {
+    background: var(--gray-color);
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+
+.menu-container .menu-input-check {
+    display: none;
+}
+
+.menu-container .menu-input-check:checked ~ .menu {
+    max-height: 305px;
+}
+
+.menu-container .menu-input-check:checked ~ .menu-label-check .hamburger-icon {
+    background: transparent;
+}
+
+.menu-container .menu-input-check:checked ~ .menu-label-check .hamburger-icon::before {
+    transform: rotate(-45deg);
+    top: 0;
+
+}
+
+.menu-container .menu-input-check:checked ~ .menu-label-check .hamburger-icon::after {
+    transform: rotate(45deg);
+    top: 0;
+
+}
+
+
+
+
+@media (min-width: 760px) {
+    
+    .menu-container li {
+        float: right;
+    }
+
+    .menu-container li a {
+        padding: 10px 15px;
+       background-color: white;
+    }
+
+    .menu-container .menu {
+        float: right;
+        max-height: none;
+        background: white;
+    }
+
+    .menu-container .menu-label-check {
+        display: none;
+    }
+
+  
+}
+
+
+
+@media (min-width: 1200px) {
+    .menu-container .logo {
+        font-size: 2.5em;
+    
+    }    
+}
+
+
+*/
+
+
+/* -------------------------------- */
+
+.menu-container {
+    background-color: white;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+   
+    
+}
+
+.menu-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu-container ul li {
+    text-align: right;
+    background-color: var(--background-boxes);
+    border-bottom: 1px solid white;
+}
+
+.menu-container ul a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.menu-container ul a:hover {
+    background-color: var(--yellow-color);
+    transition-duration: 0.2s;
+}
+
+.menu-container .logo {
+    float: right;
+    display: block;
+    font-size: 1.5em;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--yellow-color);
+    margin-top: 7px;
+}
+
+.menu-container .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.menu-container .menu-label-check {
+    padding: 28px 20px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.menu-container .menu-label-check .hamburger-icon {
+    background: var(--gray-color);
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.menu-container .menu-label-check .hamburger-icon::before {
+    background: var(--gray-color);
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+
+.menu-container .menu-label-check .hamburger-icon::after {
+    background: var(--gray-color);
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+
+.menu-container .menu-input-check {
+    display: none;
+}
+
+.menu-container .menu-input-check:checked ~ .menu {
+    max-height: 305px;
+}
+
+.menu-container .menu-input-check:checked ~ .menu-label-check .hamburger-icon {
+    background: transparent;
+}
+
+.menu-container .menu-input-check:checked ~ .menu-label-check .hamburger-icon::before {
+    transform: rotate(-45deg);
+    top: 0;
+
+}
+
+.menu-container .menu-input-check:checked ~ .menu-label-check .hamburger-icon::after {
+    transform: rotate(45deg);
+    top: 0;
+
+}
+
+
+@media(min-width: 760px) {
+    .menu-container li {
+        float: right;
+    }
+
+    .menu-container li a {
+        padding: 10px 15px;
+       background-color: white;
+    }
+
+    .menu-container .menu {
+       /* float: left;*/
+       max-height: none;
+        background: white;
+        margin-right: 17px;
+        margin-top: 12px;
+    }
+
+    .menu-container .menu-label-check {
+        display: none;
+    }
+
+    .menu-container {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;*/
+    }
+
+    .menu-container .logo {
+        padding-right: 30px;
+        padding-top: 15px;
+    }
+
+    .menu-container ul a:hover {
+        background-color: white;
+        color: var(--yellow-color);
+        
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 1200px) {
+  
+
+    .menu-container .logo {
+        font-size: 1.8em;
+        padding: 15px;
+        margin-right: 60px;
+    }  
+
+    .menu-container .menu {
+         padding: 15x;
+         margin-top: 20px;
+         /*margin-left: 150px;*/
+     }
+}

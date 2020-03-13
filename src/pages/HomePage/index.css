@@ -1,0 +1,440 @@
+.header-top-image {
+    margin-top: 110px;
+    position: relative;
+}
+
+.header-top-image-box-layer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    height: 69px;
+    padding: 9px 15px 8px;
+    text-align: right;
+    background-color: rgba(38, 38, 40, 0.68);
+}
+
+.header-top-image-box-layer a {
+    color: white;
+    font-size: 18px;
+}
+
+.header-top-image-box-layer p {
+    display: none;
+    color: white;
+}
+
+.home-cta-container  {
+    margin-top: 21px;
+    
+}
+
+.home-cta-container .home-cta-icon-wrapper  {
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+.home-cta-container .home-cta-icon-wrapper i {
+    background: var(--background-boxes);
+    border: 1px solid #E2E6E7;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: var(--yellow-color); 
+}
+
+.home-cta-container .home-cta-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.home-cta-container .home-cta-text-child {
+    margin-bottom: 17px;
+}
+
+
+.home-cta-container .home-cta-text-child p{
+    font-size: 14px;
+    text-align: right;
+    
+}
+
+.home-cta-container .home-cta-text-child h6{
+    /*margin-bottom: 12px;*/
+    text-align: right;
+}
+
+.home-cta-container a {
+    background-color: var(--yellow-color);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.home-cta-container a:hover {
+    border: 1px solid var(--yellow-color);
+    background-color: white;
+    color: var(--gray-color);
+}
+
+.home-services-container {
+    background-color: var(--background-boxes);
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.home-services-container .home-services-sub-title {
+    color: var(--gray-color);
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 10px auto 30px;
+    /*font-weight: 400;*/
+}
+
+.home-services-container h2,
+.home-why-us-container h2 {
+    font-weight: 300;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.home-services-container h2::before,
+.home-why-us-container h2::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid var(--yellow-color);
+}
+
+.home-services-container .card,
+.home-why-us-container .card {
+    border: none;
+    border-radius: none;
+}
+
+.home-services-container .card .card-title,
+.home-why-us-container .card .card-title {
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.home-services-container .card .card-title::before,
+.home-why-us-container .card .card-title::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid var(--yellow-color);
+    padding: 10px 0;
+}
+
+
+
+.home-services-container .card .card-text,
+.home-why-us-container .card .card-text{
+    font-size: 14px;
+    color: var(--gray-color);
+}
+
+.home-services-container a,
+.home-why-us-container a {
+    background-color: var(--yellow-color);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 30px 0;
+}
+
+.home-services-container a:hover,
+.home-why-us-container a:hover {
+    border: 1px solid var(--yellow-color);
+    background-color: white;
+    color: var(--gray-color);
+}
+
+.home-why-us-container {
+    background-color: white;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.home-why-us-container .home-why-us-sub-title {
+    color: var(--gray-color);
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 10px auto 30px;
+    /*font-weight: 500;*/
+}
+/*
+.home-why-us-container i {
+    background: var(--background-boxes);
+    border: 1px solid #E2E6E7;
+    padding: 18px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    color: var(--yellow-color); 
+}
+*/
+
+
+
+.home-why-us-container  i {
+    background: var(--background-boxes);
+    border: 1px solid #E2E6E7;
+    /*padding: 30px;*/
+    border-radius: 50%;
+    font-size: 45px;
+    color: var(--yellow-color); 
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.home-testimonials-container {
+   /* background-image: url(/img/services-images/4.jpg);
+    background-size: cover;*/
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    /*background-blend-mode: screen;*/
+    
+}
+.home-testimonials-container::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    background-image: url(/img/services-images/1.jpg);
+    background-size: cover;
+    z-index: 0;
+    
+}
+
+.costumer-testimonials {
+    padding: 40px 0;
+}
+
+.home-testimonials-container .home-testimonials-cover {
+    padding: 40px 0;
+}
+
+
+
+.testimonial img {
+    max-width: 159px;
+    margin: 0 auto 0 auto;
+    border: 2px solid white;
+    padding: 5px;
+    margin-bottom: 13px;
+}
+
+
+
+.testimonial blockquote {
+    border: 0;
+    font-size: italic;
+    color: white;
+    padding: 5px 70px;
+    position: relative;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-size: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.testimonial blockquote::before {
+    content: "\201D";
+    top: 0;
+    right: 30px;
+}
+
+.testimonial blockquote::after {
+    content: "\201C";
+    bottom: 0;
+    left: 30px;
+}
+
+.testimonial-author p {
+    color: white;
+    font-size: 17px;
+}
+
+.testimonial-author p strong {
+    display: block;
+}
+
+.home-testimonials-container h3 {
+    color: white;
+    position: relative;
+    
+}
+
+/* Tablet */
+@media(min-width: 760px) {
+    .header-top-image {
+        margin-top: 108px;
+    }
+
+    .header-top-image-box-layer {
+        bottom: 60px;
+        width: 320px;
+        height: 220px;
+    }
+
+    .header-top-image-box-layer a {
+       padding: 10px;
+       display: block;
+       
+    }
+
+    .header-top-image-box-layer p {
+        display: block;
+       border-top: 1px solid var(--yellow-color);
+       padding: 10px;
+    }
+
+
+    .home-services-container h2,
+    .home-why-us-container h2 {
+        font-size: 24px;
+    }
+
+    .home-cta-container  {
+        margin-top: 27px;  
+    }
+
+    .home-why-us-container  i {
+        background: var(--background-boxes);
+        border: 1px solid #E2E6E7;
+        /*padding: 30px;*/
+        border-radius: 50%;
+        font-size: 38px;
+        color: var(--yellow-color); 
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        line-height: 90px;
+        vertical-align: middle;
+        display: block;
+        margin: 0 auto;
+    }
+
+    
+}
+
+
+/* Desktop */
+@media(min-width: 1200px) {
+    .header-top-image-box-layer {
+        bottom: 300px;
+        width: 400px;
+        height: 270px;
+    }
+
+    .header-top-image-box-layer a {
+        font-size: 28px;
+        padding: 10px;
+        display: block;
+        
+     }
+
+
+     .home-cta-container  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 48px;
+        
+    }
+
+    .home-cta-container  a {
+        margin-top: 10px;   
+    }
+
+    .home-services-container h2,
+    .home-why-us-container h2 {
+        font-size: 29px;
+    }
+
+    .home-services-container .home-services-sub-title,
+    .home-why-us-container .home-why-us-sub-title {
+        font-size: 16px;  
+        width: 70%; 
+    }
+
+    .home-services-container .card .card-title,
+    .home-why-us-container .card .card-title {
+        font-size: 18px;
+    }
+
+
+    .home-services-container a,
+    .home-why-us-container a {
+        margin: 40px 0;
+    }
+
+    .home-why-us-container  i {
+        background: var(--background-boxes);
+        border: 1px solid #E2E6E7;
+        /*padding: 30px;*/
+        border-radius: 50%;
+        font-size: 45px;
+        color: var(--yellow-color); 
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        line-height: 120px;
+        vertical-align: middle;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+}
