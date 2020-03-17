@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import Services from './pages/Services';
 import Service from './pages/Service';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <Header />
        {/* <HomePage />  */}
       {/* <Services /> */}
-      <Service 
+      {/*          <Service 
       serviceNameMenu1="שירות 1"
       serviceNameMenu2="שירות 2"
       serviceNameMenu3="שירות 3"
@@ -39,7 +41,10 @@ function App() {
       a3='טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט'
       q4="שאלה רביעית"
       a4='טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט'
-      />{/*  */}
+      />     */}
+
+      {/* <About /> */}
+      <Contact />
       <Footer />
       
     </div>
