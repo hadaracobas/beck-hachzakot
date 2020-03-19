@@ -3,7 +3,7 @@
 .page-top-container {
     background-color: var(--background-boxes);
     padding: 20px 10px;
-    margin-top: 136px;
+    margin-top: 106px;
 }
 
 .page-top-container h3{
@@ -18,7 +18,7 @@
 /* Tablet */ 
 @media(min-width: 760px) {
     .page-top-container {
-        margin-top: 100px;
+        margin-top: 115px;
         padding: 30px 10px;
     }
 }
@@ -29,7 +29,7 @@
 @media(min-width: 1200px) {
 
     .page-top-container {
-        margin-top: 120px;
+        margin-top: 130px;
     }
 
     .page-top-container h3{

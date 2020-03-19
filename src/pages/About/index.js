@@ -29,7 +29,7 @@ class About extends React.Component {
                 <div className="about-adv-container">
 
                     <div className="about-adv">
-                        <i className="far fa-dizzy"></i>
+                    <i className="fab fa-black-tie"></i>
                         <div>
                             <h3> כותרת</h3>
                             <p>טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט</p>
@@ -37,7 +37,7 @@ class About extends React.Component {
                     </div>
 
                     <div className="about-adv">
-                        <i className="far fa-dizzy"></i>
+                    <i className="fas fa-external-link-square-alt"></i>
                         <div>
                             <h3> כותרת</h3>
                             <p>טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט</p>
@@ -45,7 +45,7 @@ class About extends React.Component {
                     </div>
 
                     <div className="about-adv">
-                        <i className="far fa-dizzy"></i>
+                    <i className="fas fa-feather-alt"></i>
                         <div>
                             <h3> כותרת</h3>
                             <p>טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט טקסט</p>

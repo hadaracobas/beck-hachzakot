@@ -15,9 +15,9 @@ class Header extends React.Component {
             <header className="header">
                 <div className="header-top">
 
-                    <div className="header-top-log-in">
+                    {/*<div className="header-top-log-in">
                       <span className="header-login"><i className="fas fa-chart-line"></i> התחבר למערכת</span>
-                    </div>
+                    </div>*/}
 
                     <div className="header-top-contact"> 
                         <span className="header-tel"><i className="fas fa-phone-square"></i> 052-897-63-98</span>

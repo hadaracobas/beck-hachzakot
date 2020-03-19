@@ -1,5 +1,6 @@
 :root {
-  --yellow-color: #F4BC16;
+  /*--yellow-color: #F4BC16;*/
+  --yellow-color: #9A031E;
   --black-color: #000000;
   --gray-color: #444444;
   --gray-light-color: #999999;
@@ -11,6 +12,11 @@
   content: "";
   clear: both;
   display: table;
+}
+
+
+.bold {
+  font-weight: bold;
 }
 
 
